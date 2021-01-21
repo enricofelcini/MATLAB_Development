@@ -47,5 +47,8 @@ while str == 'y'
     end
     
 end
-
-
+%%
+figure;
+x = linspace(1,100,100);
+y = x.^2;
+plot3(x,y,0*x,'-');
